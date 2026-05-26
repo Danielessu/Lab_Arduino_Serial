@@ -1,0 +1,48 @@
+name: Arduino CI
+
+on:
+  push:
+    paths:
+      - '**.ino'
+
+jobs:
+  compile-sketches:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: Instalar core AVR
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+
+      # =====================================
+      # PARTE I
+      # =====================================
+
+      - name: Compilar Parte I
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno Parte_I
+
+      # =====================================
+      # PARTE II - SERVO
+      # =====================================
+
+      - name: Compilar Servo
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno Parte_II/Servo
+
+      # =====================================
+      # PARTE II - INTERFAZ
+      # =====================================
+
+      - name: Compilar Interfaz
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno Parte_II/Interfaz
