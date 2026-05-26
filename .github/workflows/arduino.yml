@@ -6,22 +6,45 @@ on:
       - '**.ino'
 
 jobs:
+
   compile-sketches:
 
     runs-on: ubuntu-latest
 
     steps:
 
+      # =====================================
+      # DESCARGAR REPOSITORIO
+      # =====================================
+
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
+      # =====================================
+      # INSTALAR ARDUINO CLI
+      # =====================================
+
       - name: Instalar Arduino CLI
         uses: arduino/setup-arduino-cli@v1
+
+      # =====================================
+      # INSTALAR CORE AVR
+      # =====================================
 
       - name: Instalar core AVR
         run: |
           arduino-cli core update-index
           arduino-cli core install arduino:avr
+
+      # =====================================
+      # INSTALAR LIBRERIAS
+      # =====================================
+
+      - name: Instalar librerias
+        run: |
+          arduino-cli lib install "Servo"
+          arduino-cli lib install "Keypad"
+          arduino-cli lib install "LiquidCrystal I2C"
 
       # =====================================
       # PARTE I
