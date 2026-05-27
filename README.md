@@ -9,7 +9,9 @@
 
 ---
 
-Enlace tinkercad: https://www.tinkercad.com/things/gbmYvzL3wgf-lab-comunicacion-serial-parte-ii-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=Wm6dOgnRx-xJiCAQjYCT-j1X7XybP-IRnibArDtO5Bo
+Enlace Tinkercad Parte I: https://www.tinkercad.com/things/2i2QEOBS9OP-copy-of-comunicacion-serial-1/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=KHdzZ0fjAkI_won6Q6Me6vM6K2xVfXz53ND1M7SN4Oo
+
+Enlace tinkercad Parte II: https://www.tinkercad.com/things/gbmYvzL3wgf-lab-comunicacion-serial-parte-ii-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=Wm6dOgnRx-xJiCAQjYCT-j1X7XybP-IRnibArDtO5Bo
 
 ---
 # Descripción del proyecto
