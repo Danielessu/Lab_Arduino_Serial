@@ -9,6 +9,9 @@
 
 ---
 
+Enlace tinkercad: https://www.tinkercad.com/things/gbmYvzL3wgf-lab-comunicacion-serial-parte-ii-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=Wm6dOgnRx-xJiCAQjYCT-j1X7XybP-IRnibArDtO5Bo
+
+---
 # Descripción del proyecto
 
 Este laboratorio implementa un sistema de comunicación serial utilizando Arduino Uno. El proyecto se divide en varias partes:
